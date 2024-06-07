@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entretien & Propreté</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, footer { background-color: #333; color: white; text-align: center; padding: 1em 0; }
+        header h1 { margin: 0; }
+        .banner { position: relative; text-align: center; color: white; }
+        .banner img { width: 100%; height: auto; }
+        .banner-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+        .container { padding: 20px; }
+        .services, .about, .contact { margin-bottom: 40px; }
+        .service-item { display: flex; align-items: center; margin-bottom: 20px; }
+        .service-item img { margin-right: 20px; }
+        .cta-buttons { text-align: center; margin: 20px 0; }
+        .cta-buttons a { margin: 0 10px; padding: 10px 20px; background-color: #333; color: white; text-decoration: none; }
+        footer p { margin: 0; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Entretien & Propreté</h1>
+    <nav>
+        <a href="#services">Nos Services</a> | 
+        <a href="#about">À Propos</a> | 
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="banner">
+    <img src="https://via.placeholder.com/1920x600" alt="Bannière de nettoyage">
+    <div class="banner-text">
+        <h2>Votre spécialiste en nettoyage de tissus et remise à neuf de véhicules</h2>
+        <div class="cta-buttons">
+            <a href="#contact">Demander un Devis Gratuit</a>
+            <a href="#contact">Nous Contacter</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <section id="services" class="services">
+        <h2>Nos Services</h2>
+        <div class="service-item">
+            <img src="https://via.placeholder.com/150" alt="Nettoyage de Tissus">
+            <div>
+                <h3>Nettoyage de Tissus</h3>
+                <p>Nous offrons un service de nettoyage professionnel pour tous types de tissus, y compris les canapés, tapis et plus encore.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="https://via.placeholder.com/150" alt="Remise à Neuf de Véhicules">
+            <div>
+                <h3>Remise à Neuf de Véhicules</h3>
+                <p>Notre service complet de remise à neuf redonnera à votre véhicule son éclat d'origine, à l'intérieur comme à l'extérieur.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>À Propos de Nous</h2>
+        <p>Entretien & Propreté est dédié à fournir des services de nettoyage de haute qualité. Nous utilisons des produits écologiques et des techniques innovantes pour garantir la satisfaction de nos clients.</p>
+        <h3>Notre Mission</h3>
+        <p>Offrir des services de nettoyage exceptionnels tout en respectant l'environnement.</p>
+        <h3>Notre Équipe</h3>
+        <p>Notre équipe est composée de professionnels qualifiés et expérimentés, prêts à répondre à tous vos besoins de nettoyage.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contactez-Nous</h2>
+        <p>Pour toute question ou pour demander un devis gratuit, n'hésitez pas à nous contacter :</p>
+        <form>
+            <label for="name">Nom:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Entretien & Propreté. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
